@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --fs-xs: 10px;
+            --fs-s: 14px;
+            --fs-sm: 20px;
+            --fs-lg: 22px;
+            --fs-xl: 25px;
+        }
+
+        .container {
+            max-width: 587px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .box {
+            max-width: 640px;
+            background-color: #EDEDED;
+            border-radius: 16px;
+            background: #EDEDED;
+            padding: 15px;
+            box-shadow: 0px 4px 3px 0px rgba(89, 40, 229, 0.07), 0px 2px 2px 0px rgba(89, 40, 229, 0.06);
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .bg-image {
+            background-image: url("https://i.ibb.co/64DHq6G/bg-image.png");
+        }
+
+        .color-black {
+            color: #000;
+        }
+
+        .m-0 {
+            margin: 0;
+        }
+
+        .pt-25 {
+            padding-top: 25px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .fs-40 {
+            font-size: var(--fs-xl);
+        }
+
+        .fs-28 {
+            font-size: var(--fs-lg);
+        }
+
+        .fs-12 {
+            font-size: var(--fs-xs);
+        }
+
+        .fs-16 {
+            font-size: var(--fs-s);
+        }
+
+        .fs-24 {
+            font-size: var(--fs-sm);
+        }
+
+        .fw-400 {
+            font-weight: 400;
+        }
+
+        .fw-700 {
+            font-weight: 700;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .ff-poppins {
+            font-family: 'poppins', sans-serif;
+        }
+
+        .pt-7 {
+            padding-top: 7px;
+        }
+
+        .max-w-365 {
+            max-width: 365px;
+        }
+
+        .mt-21 {
+            margin-top: 21px;
+        }
+
+        .btn-1 {
+            border-radius: 6px;
+            border: 1px solid #000;
+            background: #E9BC02;
+            padding: 9px 10px;
+            margin-bottom: 25px;
+        }
+
+        .btn-1:hover {
+            background-color: #000;
+            color: #E9BC02;
+        }
+
+        .max-w-512 {
+            max-width: 512px;
+        }
+
+        .br-18 {
+            border-radius: 18px;
+        }
+
+        .color-brown {
+            color: #991A36;
+        }
+
+        .color-white {
+            background-color: #fff;
+        }
+
+        .color-grey {
+            color: grey;
+        }
+
+        .pt-5 {
+            padding-top: 5px;
+        }
+
+        .max-w-430 {
+            max-width: 430px;
+        }
+
+        .card {
+            height: 207px;
+            border-radius: 18px;
+            background: #EDEDED;
+            padding: 51px 16px 16px 16px;
+            margin-left: 18px;
+            margin-right: 17px;
+        }
+
+        .bg-image-grey {
+            background-image: url("https://i.ibb.co/Pw9ypBp/bg-grey-img.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 280px;
+            height: 207px;
+            padding-top: 51px;
+        }
+
+        .bg-grey-img-2 {
+            background-image: url("https://i.ibb.co/LpFyttn/bg-grey-2.png");
+            height: 207px;
+            max-width: 280px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 51px;
+        }
+
+        .mt-60 {
+            margin-top: 60px;
+        }
+
+        .bg-image-2 {
+            background-image: url("https://i.ibb.co/J5qbrXZ/bg-image-2.png");
+            background-size: cover;
+            height: 207px;
+            background-position: left;
+            max-width: 280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pl-38 {
+            padding-left: 38px;
+        }
+
+        .pb-24 {
+            padding-bottom: 24px;
+        }
+
+        .pb-18 {
+            padding-bottom: 18px;
+        }
+
+        .bg-black {
+            background-color: #000;
+        }
+
+        .mb-21 {
+            margin-bottom: 21px;
+        }
+
+        .pb-60 {
+            padding-bottom: 60px;
+        }
+
+        .text-white {
+            color: #fff;
+        }
+
+        .text-decoration-underline {
+            text-decoration: underline;
+        }
+
+        .text-decoration-none {
+            text-decoration: none !important;
+        }
+
+        .py-36 {
+            padding-top: 36px;
+            padding-bottom: 36px;
+        }
+        .max-w-640{
+            max-width: 640px;
+        }
+
+        @media (min-width:450px) {
+            :root {
+                --fs-xs: 12px;
+                --fs-s: 16px;
+                --fs-sm: 24px;
+                --fs-lg: 28px;
+                --fs-xl: 40px;
+            }
+
+            .btn-1 {
+                padding: 19px 55px;
+                margin-bottom: 25px;
+            }
+
+            .bg-image-2 {
+                background-image: url("https://i.ibb.co/J5qbrXZ/bg-image-2.png");
+                background-size: cover;
+                height: 207px;
+                max-width: 552px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .bg-grey-img-2 {
+                max-width: 552px;
+            }
+
+            .bg-image-grey {
+                max-width: 552px;
+            }
+        }
+    </style>
+</head>
+<body class="m-0">
+    <div class="max-w-640 mx-auto">
+        <div class="box mx-auto pb-60">
+            <div class="container text-center">
+                <img src="https://i.ibb.co/HPkqSpb/header-pic.png" alt="header-pic" class="w-100">
+                <div class="bg-image mt-21 br-18">
+                    <p class="color-black text-center fs-40 m-0 pt-25 ff-poppins max-w-512 mx-auto">THANK YOU FOR
+                        JOINING OUR <span class="fw-700">
+                            WAITLIST </span></p>
+                    <p class="ff-poppins text-center color-black m-0 pt-7 fw-400 fs-16 max-w-365 mx-auto">Be on the
+                        lookout
+                        for a
+                        text with your check-in instructions.
+                    </p>
+                    <div class="bg-image br-18">
+                        <button class="color-black ff-poppins fs-16 btn-1 fw-700 mt-21">See Our Menu</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container br-18 pt-25 color-white mt-21">
+                <h2 class="color-brown fs-28 fw-400 ff-poppins text-center">CLARKSVILLE, IN</h2>
+                <p class="text-center fs-24 color-black fw-700 ff-poppins pt-7">Table for 2 at 04:06 PM</p>
+                <p class="ff-poppins fw-400 text-center color-grey fs-16">Name: Test, Test</p>
+                <p class="ff-poppins fw-400 text-center color-grey fs-16">Confirmation #: 8235</p>
+                <p class="color-brown fs-16 fw-400 ff-poppins text-center">0 high chair required</p>
+                <p class="color-black fs-16 color-black fw-400 text-center pt-5">Ph: 5023201101</p>
+                <div class="pb-18">
+                    <div class="bg-image-grey br-18 mt-60 mx-auto">
+                        <p class="fs-16 ff-poppins color-black fw-400 text-center max-w-430 mx-auto">Keep in mind, this
+                            is
+                            not a
+                            reservation and as a courtesy to other guests, please don’t check in
+                            until your entire party
+                            is at the restaurant.</p>
+
+                    </div>
+                    <div class="bg-grey-img-2 mt-21 br-18">
+                        <p class="fs-16 ff-poppins color-black fw-400 text-center max-w-430 mx-auto">If you need to
+                            cancel,
+                            or don’t
+                            receive your check-in instructions, please call the restaurant.</p>
+
+                    </div>
+                    <div class="bg-image-2 br-18 mt-21">
+                        <div class="pl-38 pb-24 pt-7">
+                            <h2 class="color-black fs-24 fw-700 pt-25 ff-poppins">Review this store</h2>
+                            <p class="color-black ff-poppins fw-400 fs-16 max-w-365 pt-7">Share your thoughts on your
+                                order
+                                with fellow
+                                customers and Queen of Sheba.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------- footer ------>
+        <div class="bg-black">
+            <div class="py-36">
+                <p class=" ff-poppins text-white fs-12 fw-400 text-center"><span class="text-decoration-underline">375
+                        Alabama Street
+                        suite 200. San Francisco, California 94110 </span><span class="color-grey text-decoration-none">Ph:
+                        (888)
+                        458-5376</span></p>
+                <p class="color-grey ff-poppins fs-12 text-decoration-underline text-center">Unsubscribe from this
+                    list
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
